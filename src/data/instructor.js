@@ -60,6 +60,13 @@ export const instructor = {
   ],
   experience: [
     {
+      titleKo: 'YMCA LINC Instructor',
+      titleEn: 'YMCA LINC Instructor',
+      orgKo: 'YMCA, 런던 온타리오',
+      orgEn: 'YMCA, London, Ontario',
+      period: '2021–',
+    },
+    {
       titleKo: 'LINC Instructor',
       titleEn: 'LINC Instructor',
       orgKo: 'Collège Boréal, 런던 온타리오',
@@ -83,14 +90,14 @@ export const instructor = {
     {
       titleKo: '영어 원어민 교사',
       titleEn: 'English as a Foreign Language Teacher',
-      orgKo: 'SANHUI 초등학교, 수원',
+      orgKo: '산의초등학교, 수원',
       orgEn: 'SANHUI Elementary School, Suwon, South Korea',
       period: '2015–2017',
     },
     {
       titleKo: '영어 원어민 교사',
       titleEn: 'English as a Foreign Language Teacher',
-      orgKo: '송니산·보덕중학교, 수정초등학교, 보은',
+      orgKo: '속리산 중학교·보덕중학교, 수정초등학교, 보은',
       orgEn: 'Songnisan & Bodeok Middle School, Sujeong Elementary, Boeun, South Korea',
       period: '2014–2015',
     },

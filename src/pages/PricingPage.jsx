@@ -17,7 +17,7 @@ function PricingCard({ program, lang, t }) {
       </p>
 
       <div style={{ display: 'flex', alignItems: 'baseline', gap: 6, margin: '12px 0 20px' }}>
-        <span style={{ fontSize: 40, fontWeight: 700, color: 'var(--primary)' }}>${program.price}</span>
+        <span style={{ fontSize: 40, fontWeight: 700, color: 'var(--primary)' }}>${program.price} CAD</span>
         <span className="sub">{t('pricing.monthly')}</span>
       </div>
 

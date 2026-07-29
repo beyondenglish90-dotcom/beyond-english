@@ -41,6 +41,7 @@ export default function Footer() {
             {t('footer.contact')}
           </h4>
           <p className="sub" style={{ fontSize: 14, margin: 0 }}>
+            Email: <a href="mailto:beyondenglish90@gmail.com" style={{ color: 'inherit' }}>beyondenglish90@gmail.com</a><br />
             KakaoTalk ID: Beyond-English<br />
             Tel: 548-888-5301
           </p>

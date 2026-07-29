@@ -23,7 +23,7 @@ export default function ProgramsPreview() {
                 </p>
                 <p style={{ fontSize: 15 }}>{lang === 'ko' ? program.descriptionKo : program.descriptionEn}</p>
                 <div style={{ display: 'flex', alignItems: 'baseline', gap: 4, margin: '16px 0' }}>
-                  <span style={{ fontSize: 28, fontWeight: 700, color: 'var(--primary)' }}>${program.price}</span>
+                  <span style={{ fontSize: 28, fontWeight: 700, color: 'var(--primary)' }}>${program.price} CAD</span>
                   <span className="sub">{t('home.programs.monthly')}</span>
                 </div>
                 <Button as="link" to="/pricing" variant="outline">
