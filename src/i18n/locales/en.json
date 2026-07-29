@@ -1,0 +1,184 @@
+{
+  "brand": {
+    "name": "Beyond English",
+    "tagline": "Explore. Read. Speak. Grow."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "Instructor",
+    "curriculum": "How Classes Work",
+    "pricing": "Pricing",
+    "resources": "Resources",
+    "notices": "Notices"
+  },
+  "auth": {
+    "login": "Log In",
+    "signup": "Sign Up",
+    "logout": "Log Out",
+    "mypage": "My Page",
+    "admin": "Admin",
+    "google": "Continue with Google",
+    "email": "Email",
+    "password": "Password",
+    "name": "Name",
+    "noAccount": "Don't have an account?",
+    "hasAccount": "Already have an account?",
+    "goSignup": "Sign up",
+    "goLogin": "Log in",
+    "confirmPassword": "Confirm Password",
+    "loginTitle": "Welcome back",
+    "loginSubtitle": "Log in to see your activity on My Page.",
+    "signupTitle": "Get started with Beyond English",
+    "signupSubtitle": "Just a few details and you're in.",
+    "submitLogin": "Log In",
+    "submitSignup": "Sign Up",
+    "orDivider": "or",
+    "passwordMismatch": "Passwords don't match.",
+    "checkEmailTitle": "Check your email",
+    "checkEmailDesc": "We've sent a confirmation link — click it before you can log in:"
+  },
+  "mypage": {
+    "greeting": "Hello",
+    "roleStudent": "Student account",
+    "roleAdmin": "Admin account",
+    "profileTitle": "My Profile",
+    "editButton": "Edit Info",
+    "saveButton": "Save",
+    "cancelButton": "Cancel",
+    "savedMsg": "Profile saved.",
+    "activityTitle": "Activity History",
+    "logoutButton": "Log Out"
+  },
+  "admin": {
+    "eyebrow": "Admin",
+    "title": "Admin Dashboard",
+    "intro": "Members, programs, and notices — all at a glance.",
+    "statTotalMembers": "Total Members",
+    "statNewThisMonth": "New Signups This Month",
+    "chartTitle": "New Signups — Last 6 Months",
+    "noticesManageTitle": "Manage Notices",
+    "searchPlaceholder": "Search by title",
+    "filterAll": "All",
+    "filterPublished": "Published",
+    "filterDraft": "Draft",
+    "addNotice": "Add Notice",
+    "titleKoLabel": "Title (Korean)",
+    "titleEnLabel": "Title (English)",
+    "dateLabel": "Date",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "statusPublished": "Published",
+    "statusDraft": "Draft",
+    "empty": "No notices to show."
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "contact": "Contact",
+    "quickLinks": "Quick Links"
+  },
+  "common": {
+    "comingSoon": "This page will be filled in a later step.",
+    "search": "Search",
+    "loading": "Loading..."
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Group tutoring · English for kids and adults",
+      "title": "English, Learned Through Stories & Conversation",
+      "subtitle": "From kids to adults — small-group live classes built around stories and real conversation. Don't study English, experience it.",
+      "ctaPrimary": "See Pricing",
+      "ctaSecondary": "See How Classes Work"
+    },
+    "features": {
+      "eyebrow": "Why Beyond English",
+      "title": "Why choose Beyond English",
+      "items": [
+        { "title": "Small-Group Live Classes", "desc": "Meet weekly in a small group for focused, high-engagement classes." },
+        { "title": "Story-Based Curriculum", "desc": "A new story or book each month makes English feel natural, not forced." },
+        { "title": "Speaking-Focused Practice", "desc": "Questions, discussions, and role play build English you can actually use." },
+        { "title": "Bilingual Site & Resources", "desc": "The whole site works in Korean and English, with materials to download." }
+      ]
+    },
+    "programs": {
+      "eyebrow": "Programs",
+      "title": "Find the program that's right for you",
+      "monthly": "/mo",
+      "cta": "Learn More"
+    },
+    "instructor": {
+      "eyebrow": "Instructor",
+      "title": "Experience English with Maria",
+      "description": "With 12+ years teaching across Canada and South Korea, Maria leads every class around stories and real conversation.",
+      "cta": "More About Maria"
+    },
+    "notices": {
+      "eyebrow": "Notices",
+      "title": "Latest Updates",
+      "cta": "View All Notices"
+    },
+    "cta": {
+      "title": "Get in Touch Today",
+      "subtitle": "Have questions? Reach out anytime over KakaoTalk or phone.",
+      "primary": "Sign Up",
+      "secondary": "Explore Pricing"
+    }
+  },
+  "about": {
+    "eyebrow": "Instructor",
+    "photoPlaceholder": "Photo coming soon",
+    "languages": "Languages",
+    "education": "Education & Certifications",
+    "experience": "Experience",
+    "cta": "Get in Touch"
+  },
+  "curriculum": {
+    "eyebrow": "How Classes Work",
+    "title": "Here's how a class runs",
+    "intro": "Both English Adventure Club and English Book Club run as monthly memberships, not pay-per-class. Weekly live sessions keep students consistently engaged and growing.",
+    "activitiesTitle": "What Happens in the Club",
+    "membershipTitle": "Membership Highlights",
+    "flowTitle": "A Week in the Club",
+    "highlightsTitle": "Why English Book Club",
+    "seePricing": "See Pricing"
+  },
+  "pricing": {
+    "eyebrow": "Pricing",
+    "title": "Choose the membership that's right for you",
+    "intro": "Both programs run as monthly memberships, not per-class fees. Each includes a weekly live class plus a range of learning benefits.",
+    "monthly": "/ month",
+    "benefitsTitle": "Membership Includes",
+    "recommendedTitle": "Recommended For",
+    "cta": "Get in Touch",
+    "contactNote": "KakaoTalk ID: Beyond-English · Phone: 548-888-5301"
+  },
+  "resources": {
+    "eyebrow": "Resources",
+    "title": "Download Learning Materials",
+    "intro": "Find the stories, worksheets, and guides used in class right here.",
+    "download": "Download",
+    "comingSoon": "Coming soon",
+    "empty": "No resources in this category yet.",
+    "uploadTitle": "Upload Resource (Instructor)",
+    "uploadDesc": "Log in with an admin account to upload learning materials.",
+    "uploadFileTitle": "Resource Title",
+    "uploadCategory": "Category",
+    "uploadFile": "Choose File",
+    "uploadSubmit": "Upload",
+    "uploadSuccess": "Uploaded.",
+    "loginPrompt": "Log in as an instructor (admin) to see the upload form here.",
+    "goLogin": "Go to Login"
+  },
+  "notices": {
+    "eyebrow": "Notices",
+    "title": "Beyond English Updates",
+    "intro": "Enrollment openings, events, and community news.",
+    "searchPlaceholder": "Search by title",
+    "noResults": "No notices match your search.",
+    "resultCount": "notices found",
+    "prev": "Previous",
+    "next": "Next",
+    "back": "Back to list",
+    "publishedOn": "Published"
+  }
+}
