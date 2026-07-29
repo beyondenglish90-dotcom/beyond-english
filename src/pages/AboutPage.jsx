@@ -1,38 +1,7 @@
-import { GraduationCap, Briefcase, Languages } from 'lucide-react'
+import { GraduationCap, Languages } from 'lucide-react'
 import { useLanguage } from '../i18n/LanguageContext'
 import { instructor } from '../data/instructor'
-import Card from '../components/common/Card'
 import Button from '../components/common/Button'
-
-function TimelineList({ items, lang }) {
-  return (
-    <ul style={{ display: 'flex', flexDirection: 'column', gap: 0 }}>
-      {items.map((item, i) => (
-        <li
-          key={i}
-          style={{
-            display: 'flex',
-            gap: 16,
-            padding: '16px 0',
-            borderBottom: i < items.length - 1 ? '1px solid var(--border)' : 'none',
-          }}
-        >
-          <span className="sub" style={{ fontSize: 13, fontWeight: 700, width: 90, flexShrink: 0 }}>
-            {item.period}
-          </span>
-          <div>
-            <p style={{ margin: 0, fontWeight: 700, color: '#1B1E28' }}>
-              {lang === 'ko' ? item.titleKo : item.titleEn}
-            </p>
-            <p className="sub" style={{ margin: 0, fontSize: 14 }}>
-              {lang === 'ko' ? item.orgKo : item.orgEn}
-            </p>
-          </div>
-        </li>
-      ))}
-    </ul>
-  )
-}
 
 export default function AboutPage() {
   const { t, lang } = useLanguage()
@@ -101,26 +70,6 @@ export default function AboutPage() {
               ))}
             </div>
           </div>
-        </div>
-      </section>
-
-      <section className="section">
-        <div className="container grid grid-2" style={{ alignItems: 'start' }}>
-          <Card style={{ padding: 28 }} hover={false}>
-            <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 8 }}>
-              <GraduationCap className="icon" style={{ color: 'var(--primary)' }} />
-              <h3 style={{ margin: 0 }}>{t('about.education')}</h3>
-            </div>
-            <TimelineList items={instructor.education} lang={lang} />
-          </Card>
-
-          <Card style={{ padding: 28 }} hover={false}>
-            <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 8 }}>
-              <Briefcase className="icon" style={{ color: 'var(--primary)' }} />
-              <h3 style={{ margin: 0 }}>{t('about.experience')}</h3>
-            </div>
-            <TimelineList items={instructor.experience} lang={lang} />
-          </Card>
         </div>
       </section>
 
